@@ -11,7 +11,7 @@ class BankAccount(var accountHolder : String , var balane : Double){
             balane -= amount
             transactionHistory.add("$accountHolder withdrew Rs.$amount")
         }else{
-            println("You don't have fund to withdraw the money")
+            println("You don't have fund to withdraw the money --!")
         }
     }
     fun displayTransactionHistory(){
